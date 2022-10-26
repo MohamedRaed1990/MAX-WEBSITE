@@ -1,0 +1,73 @@
+h1 {
+    font-family:cursive;
+    color:#808080;
+    float: left;
+    
+    
+}
+h2{
+    font-family:cursive;
+    color:#ec1414;
+    text-align: center;
+}
+nav{
+    /* display: block;
+    margin: 0 auto; */
+    /* text-align: left; */
+    /* margin-top: 50px; */
+    width:40%;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:#808080;
+    font-family:cursive;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+img{
+    width:30%;
+    height: 500px;
+    float: left;
+    /* margin: 22px; */
+    margin-right: 44px;
+    margin-bottom: 22px;
+    box-shadow: 10px 10px 20px #000000;
+    animation:mymove 5s infinite;
+    
+    
+    
+    
+    /* rotate: 5deg; */
+    
+}
+@keyframes mymove {
+    100% {background-size: 125% 125%;}
+  }
+.active{
+    text-decoration:underline ;
+    color: #000000;
+}
+
+.img:hover{
+    background-size: 125% 125%;
+   
+    
+    
+}
+.parent{
+    
+    width:1329px;
+    height: 2000px;
+    border: 2px solid brown;
+    background-size: cover;
+}
+
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_anim_background-size
+https://css-tricks.com/zooming-background-images/
