@@ -5,6 +5,8 @@
             <link rel="icon" href="images/personal-photo.jpg" >
             <title>Max Brooklyn</title>
             <link rel="stylesheet" href="style.css">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
             <script>
                 function change(){
                     // document.getElementById("jobs").style.color="blue";
@@ -16,7 +18,7 @@
         </head>
         <body>
             <header>
-                <h1>Max Brooklyn Photograghy</h1>
+                <h1 class="myname">Mohammed Raed Photograghy</h1>
                 
                 <nav>
                     
@@ -28,32 +30,44 @@
                 </nav>
             </header>
             <section>
-                <h2 id="jobs" onclick="change()">My Jobs</h2>
-                <main>
-                    <div class="parent">
-                    <img src="./images/pic1.jfif" alt="sunset" id="j" onclick="change()">
-                    <img src="./images/pic2.jfif" alt="sunset" class="child">
-                    <img src="./images/pic3.jfif" alt="sunset">
-                    <img src="./images/pic4.jfif" alt="sky">
-                    <img src="./images/pic5.jfif" alt="sunset">
-                    <img src="./images/pic6.jfif" alt="sunset">
-                    <img src="./images/pic7.jfif" alt="sunset">
-                    <img src="./images/pic8.jfif" alt="sunset">
-                    <img src="./images/pic9.jfif" alt="sunset">
-                    <img src="./images/pic10.jfif" alt="sunset">
-                    <img src="./images/pic11.jfif" alt="sunset">
-                    <img src="./images/pic12.jfif" alt="sunset">
-                    <img src="./images/pic13.jfif" alt="sunset">
-                    <img src="./images/pic14.jfif" alt="sunset">
-                    <img src="./images/pic15.jfif" alt="sunset">
-                    <img src="./images/pic16.jfif" alt="sunset">
-                    <img src="./images/pic17.jfif" alt="sunset">
-                    <img src="./images/pic18.jfif" alt="sunset">
+                <h2 id="jobs" >My Jobs</h2>
+                <div class="works-container">
+                    <div class="work">
+                        <img class="img-work" src="./images/pic12.jfif" />
                     </div>
-                </main>
+                    <div class="work">
+                        <img class="img-work" src="./images/pic2.jfif" />
+                    </div>
+                    <div class="work">
+                        <img class="img-work" src="./images/pic3.jfif" />
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <div class="info">
+                    <div class="group">
+                        <h2 class="head-contact">My Name</h2>
+                        <p>Mohammed Raed</p>
+                        <h2 class="head-contact">My Email</h2>
+                        <p>mr@gmail.com</p>
+                        <h2 class="head-contact">My Address</h2>
+                        <p>6th Of October - Giza - Egypt</p>
+                    </div>
+                </div>
+                <div class="map"></div>
             </section>
             <footer>
-
+                    <h1 class="heading-footer"> Created By <strong>Mohammed Raed</strong></h1>
+                    <div class="social-holder">
+                        <a class="link-so"><i class='bx bxl-facebook-circle'></i></a>
+                        <a class="link-so"><i class='bx bxl-twitter' ></i></a>
+                        <a class="link-so"><i class='bx bxl-behance'></i></a>
+                        <a class="link-so"><i class='bx bxl-instagram-alt' ></i></a>
+                    </div>
+                   
             </footer>
+            <div class="mini-footer">
+                <h3 class="copyright">© 2023 Mohammed Raed, Inc.</h3>
+            </div>
         </body>
     </html>

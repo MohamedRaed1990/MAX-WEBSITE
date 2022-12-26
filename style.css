@@ -1,13 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 h1 {
     font-family:cursive;
     color:#808080;
-    float: left;
+  
     
     
+}
+.myname{
+    padding: 1em;
 }
 h2{
     font-family:cursive;
     color:#ec1414;
+    /* text-align: center; */
+}
+#jobs{
     text-align: center;
 }
 nav{
@@ -19,6 +29,7 @@ nav{
     display: block;
     margin: 0 auto;
     clear: both;
+    padding: 4em 0;
     
     
 }
@@ -31,25 +42,7 @@ a{
     font-size: large;
     
 }
-img{
-    width:30%;
-    height: 500px;
-    float: left;
-    /* margin: 22px; */
-    margin-right: 44px;
-    margin-bottom: 22px;
-    box-shadow: 10px 10px 20px #000000;
-    animation:mymove 5s infinite;
-    
-    
-    
-    
-    /* rotate: 5deg; */
-    
-}
-@keyframes mymove {
-    100% {background-size: 125% 125%;}
-  }
+
 .active{
     text-decoration:underline ;
     color: #000000;
@@ -61,13 +54,7 @@ img{
     
     
 }
-.parent{
-    
-    width:1329px;
-    height: 2000px;
-    border: 2px solid brown;
-    background-size: cover;
-}
+
 
 .hello{
     font-weight: 600;
@@ -126,3 +113,128 @@ img{
 /* https://themewagon.com/themes/meetme-free-bootstrap-4-personal-portfolio-website-template/
 /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss_anim_background-size
 https://css-tricks.com/zooming-background-images/ */ 
+.works-container{
+    width: 100%;
+    height: fit-content;
+  
+    padding: 3em 0; 
+    background-color: #666;
+    display: flex;
+    position: relative;
+}
+.work{
+    display: block;
+    width: 33%;
+    height: fit-content;
+    padding: 0 3em;
+    
+}
+
+.img-work{
+    width: 100%;
+
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #000000;
+    color: white;
+    padding: 1em !important;
+    padding-bottom: 0 !important;
+
+    display: block;
+}
+
+.heading-footer{
+    text-align: center !important;
+    font-weight: 800;
+}
+
+.social-holder{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-holder a {
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+.social-holder a i {
+    color: white;
+    transition: 0.5s;
+    font-size: 6vh;
+}
+
+.mini-footer{
+    width: 100%;
+    background-color: #333;
+
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
+
+.contact{
+    width:100%;
+    background-color: #999;
+
+    padding: 1em;
+}
+
+.group{
+    padding: 2em;
+}
+
+.group p {
+    color: white;
+}
+.head-contact{
+    transition: 0.5s;
+}
+.head-contact:hover{
+    text-shadow:0 3px 10px #ec4040;
+}
+
+@media only screen and (max-width: 576px) { 
+   body{
+    height: 100vh !important;
+   }
+   .img-work{
+    width: 40% !important;
+   
+}
+.works-container{
+    display: block;
+    width: 100%;
+}
+.work{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) { 
+    .img-work{
+        width: 115%;
+    }
+ 
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+    img{
+        width: 44%;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { }
